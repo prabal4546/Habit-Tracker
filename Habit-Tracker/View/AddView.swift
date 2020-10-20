@@ -22,6 +22,11 @@ struct AddView: View {
                 TextField("Desc", text: $desc)
             }
             .navigationBarTitle("Add Habits")
+            .navigationBarItems(leading: Button("Save"){
+                let item = Activity(activityTitle: self.title, activityDescription: self.desc)
+                self.hactivity.activities.append(item)
+                self.presentationMode.wrappedValue.dismiss()
+            })
         }
     }
 }
