@@ -13,6 +13,9 @@
 		91319C0A253EB9E3006DC230 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91319C09253EB9E3006DC230 /* Preview Assets.xcassets */; };
 		91319C15253EB9E4006DC230 /* Habit_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91319C14253EB9E4006DC230 /* Habit_TrackerTests.swift */; };
 		91319C20253EB9E4006DC230 /* Habit_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91319C1F253EB9E4006DC230 /* Habit_TrackerUITests.swift */; };
+		91319C31253EF0DF006DC230 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91319C30253EF0DF006DC230 /* Activity.swift */; };
+		91319C36253EF138006DC230 /* holdActivities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91319C35253EF138006DC230 /* holdActivities.swift */; };
+		91319C3F253EF1DE006DC230 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91319C3E253EF1DE006DC230 /* AddView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		91319C1B253EB9E4006DC230 /* Habit-TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Habit-TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91319C1F253EB9E4006DC230 /* Habit_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habit_TrackerUITests.swift; sourceTree = "<group>"; };
 		91319C21253EB9E4006DC230 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91319C30253EF0DF006DC230 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		91319C35253EF138006DC230 /* holdActivities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = holdActivities.swift; sourceTree = "<group>"; };
+		91319C3E253EF1DE006DC230 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,9 +102,10 @@
 			isa = PBXGroup;
 			children = (
 				91319C02253EB9DF006DC230 /* Habit_TrackerApp.swift */,
-				91319C04253EB9DF006DC230 /* ContentView.swift */,
+				91319C43253EF1FE006DC230 /* View */,
 				91319C06253EB9E3006DC230 /* Assets.xcassets */,
 				91319C0B253EB9E3006DC230 /* Info.plist */,
+				91319C3D253EF17C006DC230 /* Helpers */,
 				91319C08253EB9E3006DC230 /* Preview Content */,
 			);
 			path = "Habit-Tracker";
@@ -128,6 +135,24 @@
 				91319C21253EB9E4006DC230 /* Info.plist */,
 			);
 			path = "Habit-TrackerUITests";
+			sourceTree = "<group>";
+		};
+		91319C3D253EF17C006DC230 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				91319C30253EF0DF006DC230 /* Activity.swift */,
+				91319C35253EF138006DC230 /* holdActivities.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		91319C43253EF1FE006DC230 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				91319C04253EB9DF006DC230 /* ContentView.swift */,
+				91319C3E253EF1DE006DC230 /* AddView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +284,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91319C31253EF0DF006DC230 /* Activity.swift in Sources */,
 				91319C05253EB9DF006DC230 /* ContentView.swift in Sources */,
+				91319C3F253EF1DE006DC230 /* AddView.swift in Sources */,
 				91319C03253EB9DF006DC230 /* Habit_TrackerApp.swift in Sources */,
+				91319C36253EF138006DC230 /* holdActivities.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
