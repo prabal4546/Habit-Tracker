@@ -16,6 +16,7 @@
 		91319C31253EF0DF006DC230 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91319C30253EF0DF006DC230 /* Activity.swift */; };
 		91319C36253EF138006DC230 /* holdActivities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91319C35253EF138006DC230 /* holdActivities.swift */; };
 		91319C3F253EF1DE006DC230 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91319C3E253EF1DE006DC230 /* AddView.swift */; };
+		91F2E18D254017290097D1C9 /* ActivityDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F2E18C254017290097D1C9 /* ActivityDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		91319C30253EF0DF006DC230 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
 		91319C35253EF138006DC230 /* holdActivities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = holdActivities.swift; sourceTree = "<group>"; };
 		91319C3E253EF1DE006DC230 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		91F2E18C254017290097D1C9 /* ActivityDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 			children = (
 				91319C04253EB9DF006DC230 /* ContentView.swift */,
 				91319C3E253EF1DE006DC230 /* AddView.swift */,
+				91F2E18C254017290097D1C9 /* ActivityDetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 			files = (
 				91319C31253EF0DF006DC230 /* Activity.swift in Sources */,
 				91319C05253EB9DF006DC230 /* ContentView.swift in Sources */,
+				91F2E18D254017290097D1C9 /* ActivityDetailView.swift in Sources */,
 				91319C3F253EF1DE006DC230 /* AddView.swift in Sources */,
 				91319C03253EB9DF006DC230 /* Habit_TrackerApp.swift in Sources */,
 				91319C36253EF138006DC230 /* holdActivities.swift in Sources */,

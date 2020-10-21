@@ -20,6 +20,8 @@ struct ContentView: View {
         NavigationView{
             List{
                 ForEach(holdedAct.activities){ activity in
+                    NavigationLink( destination: ActivityDetailView()){
+                        
                     HStack{
                         VStack(alignment: .leading){
                             Text(activity.activityTitle)
@@ -29,6 +31,7 @@ struct ContentView: View {
                         Spacer()
                     }
                 }
+                    }
                 
             }
             .sheet(isPresented:$showingAddHabits){
